@@ -1,21 +1,82 @@
 from graphics import *
 win = GraphWin("Karaoke",600,500)
-win.setBackground("red")
+win.setBackground("white")
 
-n = r"""           *
-           /|\
-           /0|0\
-          /*/|\*\
-         ///0|0\\\
-           |||
-            """
+aRectangle = Rectangle(Point(590,490), Point(10, 10))
+aRectangle.setFill("Red")
+aRectangle.draw(win)
 
-aText = Text(Point(400,100), n)
-aText.setSize(20)
-aText.draw(win)
+w = Circle(Point(115, 115), 75)
+w.setFill("Green")
+w.draw(win)
 
-aImage = Image(Point(250, 375), "Christmas Tree.jpeg")
-aImage.draw(win)
+w = Circle(Point(115, 115), 40)
+w.setFill("Red")
+w.draw(win)
+
+w = Circle(Point(140, 170), 15)
+w.setFill("Purple")
+w.draw(win)
+
+w = Circle(Point(80, 70), 15)
+w.setFill("Purple")
+w.draw(win)
+
+w = Circle(Point(164, 80), 15)
+w.setFill("Yellow")
+w.draw(win)
+
+w = Circle(Point(77, 163), 15)
+w.setFill("Yellow")
+w.draw(win)
+
+
+
+
+c = Circle(Point(525, 450), 40)
+c.setFill("white")
+c.draw(win)
+
+c = Circle(Point(525, 390), 35)
+c.setFill("white")
+c.draw(win)
+
+c = Circle(Point(525, 330), 30)
+c.setFill("white")
+c.draw(win)
+
+c = Circle(Point(515, 320), 3)
+c.setFill("black")
+c.draw(win)
+
+c = Circle(Point(535, 320), 3)
+c.setFill("black")
+c.draw(win)
+
+c = Circle(Point(525, 345), 3)
+c.setFill("black")
+c.draw(win)
+
+c = Circle(Point(515, 340), 3)
+c.setFill("black")
+c.draw(win)
+
+c = Circle(Point(535, 340), 3)
+c.setFill("black")
+c.draw(win)
+
+c = Circle(Point(525, 370), 3)
+c.setFill("black")
+c.draw(win)
+
+c = Circle(Point(525, 390), 3)
+c.setFill("black")
+c.draw(win)
+
+c = Circle(Point(525, 410), 3)
+c.setFill("black")
+c.draw(win)
+
 
 
 def name():
